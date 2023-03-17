@@ -1,0 +1,263 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [
+		{
+			"Name" : "R25",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):ins163727@analog.\\r.normal\\(chips)",
+			"Logical" : "R25",
+			"Physical" : "R61"
+		},
+		{
+			"Name" : "R57",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):ins163711@analog.\\r.normal\\(chips)",
+			"Logical" : "R57",
+			"Physical" : "R60"
+		}
+	],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "N144719",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n144719",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N1446051",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n1446051",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N144715",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n144715",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N1445831",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n1445831",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105962",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105962",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "VDD",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):vdd",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "22 MIL"
+		},
+		{
+			"Name" : "VEE",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):vee",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "22 MIL"
+		},
+		{
+			"Name" : "N105684",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105684",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N151868",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n151868",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105164",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105164",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105322",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105322",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):gnd",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "28 MIL"
+		},
+		{
+			"Name" : "N162734",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n162734",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N163771",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n163771",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "OUT",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):\\out\\",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "22 MIL"
+		},
+		{
+			"Name" : "N136654",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n136654",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N136658",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n136658",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N136718",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n136718",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N136852",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n136852",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N112512",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n112512",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105158",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105158",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N142027",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n142027",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N142019",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n142019",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N126262",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n126262",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N126327",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n126327",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N126084",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n126084",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105168",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105168",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105464",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105464",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105014",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105014",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N108528",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n108528",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N108991",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n108991",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N108998",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n108998",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N105128",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n105128",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N109664",
+			"C_PATH" : "@proiect_osc_triunghiular.schematic1(sch_1):n109664",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : []
+}

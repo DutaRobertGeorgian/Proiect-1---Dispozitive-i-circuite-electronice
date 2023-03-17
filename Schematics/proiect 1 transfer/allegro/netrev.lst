@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : proiect_osc_triunghiular.brd                  )
+(    Software Version : 17.4S028                                      )
+(    Date/Time        : Sat Dec 10 11:35:53 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro'
+Design Directory:            'C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro'
+Old design name:             'C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/proiect_osc_triunghiular.brd'
+New design name:             'C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/proiect_osc_triunghiular.brd'
+
+CmdLine: netrev -y 1 -i C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro -q netrev_constraint_report.xml C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/#Taaaaaf03268.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstchip.dat 
+   Finished reading C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstxprt.dat 
+   Finished reading C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstxnet.dat 
+   Finished reading C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_17.4/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/symbols 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/padstacks 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 10 11:35:53 2022
+   DESIGN NAME : 'PROIECT_OSC_TRIUNGHIULAR'
+   PACKAGING ON Mar  9 2022 22:03:45
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:30
+elapsed time  0:00:00
+

@@ -1,0 +1,363 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : proiect_osc_triunghiular.brd                  )
+(    Software Version : 17.4S028                                      )
+(    Date/Time        : Sat Dec 10 20:25:24 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01800                                  DARK 
+  CIRCLE     0.02200                                  DARK 
+  CIRCLE     0.02600                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05118                     0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.03600       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.07874       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.07874      90.000 NO     DARK 
+  RECTANGLE  0.07600     x 0.12000       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01800                                  DARK 
+  CIRCLE     0.02200                                  DARK 
+  CIRCLE     0.02600                                  DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMBOT >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/SMBOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04600                                  DARK 
+
+     SMBOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMTOP >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/SMTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04600                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.06141                     0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.04320       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.04320      90.000 NO     DARK 
+  RECTANGLE  0.06141     x 0.09448       0.000 NO     DARK 
+  RECTANGLE  0.06141     x 0.09448      90.000 NO     DARK 
+  RECTANGLE  0.09120     x 0.14400       0.000 NO     DARK 
+
+     SMTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SSTOP >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/SSTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (39.80 1355.35) in MIL
+           ... using undefined line width of 4.00 MIL
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 4.00 MIL
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SSTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SPTOP >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/SPTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04724                                  DARK 
+  SQUARE     0.04500                     0.000 NO     DARK 
+  SQUARE     0.04606                     0.000 NO     DARK 
+  RECTANGLE  0.04500     x 0.03240       0.000 NO     DARK 
+  RECTANGLE  0.04500     x 0.03240      90.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.07086       0.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.07086      90.000 NO     DARK 
+  RECTANGLE  0.06840     x 0.10800       0.000 NO     DARK 
+
+     SPTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < FAV >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/FAV.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (0.50 -916.30) in MIL
+           ... using undefined line width of 4.00 MIL
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 4.00 MIL
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00400                                  DARK 
+
+     FAV created with warnings
+
+
+================================================================
+     PROCESSING FILM < FAB >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/FAB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00400                                  DARK 
+
+     FAB created with warnings
+
+
+================================================================
+     PROCESSING FILM < BO >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/BO.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00400                                  DARK 
+
+     BO created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOT >
+     TO FILE < C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                4.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01800                                  DARK 
+  CIRCLE     0.02200                                  DARK 
+  CIRCLE     0.02600                                  DARK 
+
+     BOT created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        SMBOT created with warnings
+        SMTOP created with warnings
+        SSTOP created with warnings
+        SPTOP created with warnings
+        FAV created with warnings
+        FAB created with warnings
+        BO created with warnings
+        BOT created with warnings
+
+ ARTWORK had warnings

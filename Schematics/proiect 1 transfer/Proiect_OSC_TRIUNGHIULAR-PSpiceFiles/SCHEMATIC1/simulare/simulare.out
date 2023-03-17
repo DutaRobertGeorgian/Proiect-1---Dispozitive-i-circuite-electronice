@@ -1,0 +1,266 @@
+
+**** 11/10/22 21:41:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/1N4148.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC807-25.lib" 
+* From [PSPICE NETLIST] section of C:\Users\vladu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_OSC_TRIUNGHIULAR
+R_R4         N90336 N90278  30k TC=0,0 
+R_R14         N90808 N90814  510 TC=0,0 
+Q_Q3         N90142 N90336 N90510 QBC846B 
+Q_Q9         N89940 N90268 N90278 QBC846B 
+Q_Q10         N91024 N90886 N90722 QBC856B 
+R_R13         N90494 N90500  51 TC=0,0 
+V_V2         0 N91024 15
+Q_Q5         N90510 N90814 N90874 QBC846B 
+Q_Q6         N90198 N90142 N900281 QBC856B 
+C_C1         0 N90480  33n  TC=0,0 
+D_D1         N91024 N90814 BZX84-C2V7 
+R_R17         N90722 N90278  22 TC=0,0 
+Q_Q7         N90198 N90814 N90880 QBC846B 
+V_V1         N89940 0 15
+Q_Q4         N90114 N90480 N90510 QBC846B 
+X_POT1         N90500 N90278 N90278 POT PARAMS: SET=0 VALUE=5k
+R_R2         N90056 N89940  51 TC=0,0 
+R_R3         0 N90336  30k TC=0,0 
+Q_Q8         N90156 N90198 N90268 QBC846B 
+R_R9         N91024 N90880  470 TC=0,0 
+X_U2         N90528 N90886 1N4148 
+R_R8         N90480 N90494  220 TC=0,0 
+X_U1         N89940 N900281 1N4148 
+R_R15         0 N90808  510 TC=0,0 
+R_R19         N91024 N910121  1k TC=0,0 
+R_R1         N90050 N89940  51 TC=0,0 
+X_U3         N90268 N90528 1N4148 
+R_R5         N91024 N90874  470 TC=0,0 
+R_R20         N90156 N89940  510 TC=0,0 
+Q_Q2         N90114 N90114 N90056 QBC856B 
+Q_Q1         N90142 N90114 N90050 QBC856B 
+R_R18         N910121 N90886  1k TC=0,0 
+X_R12         0 N90678 N90278 POT PARAMS: SET=1 VALUE=500
+R_R21         N91485 N89940  51 TC=0,0 
+R_R22         N91491 N89940  51 TC=0,0 
+Q_Q11         N91557 N91549 N91485 QBC856B 
+Q_Q12         N91549 N91549 N91491 QBC856B 
+Q_Q13         N91557 N93979 N91809 QBC846B 
+Q_Q15         N91809 N90814 N92657 QBC846B 
+Q_Q14         N91549 N90678 N91809 QBC846B 
+Q_Q17         N92424 N90814 N92713 QBC846B 
+R_R24         N91024 N92713  470 TC=0,0 
+Q_Q16         N92424 N91557 N923841 QBC856B 
+X_U4         N89940 N923841 1N4148 
+R_R23         N91024 N92657  470 TC=0,0 
+Q_Q19         N89940 N92907 N93925 QBC846B 
+R_R25         N92841 N89940  510 TC=0,0 
+Q_Q18         N92841 N92424 N92907 QBC846B 
+X_U6         N93818 N93814 1N4148 
+R_R26         N937491 N93814  1k TC=0,0 
+X_U5         N92907 N93818 1N4148 
+R_R27         N91024 N937491  1k TC=0,0 
+Q_Q20         N91024 N93814 N93925 QBC856B 
+R_R28         0 N93979  10k TC=0,0 
+R_R29         N90678 N93925  500 TC=0,0 
+C_C2         N90678 N93925  4.7u  TC=0,0 
+X_R30         0 N94492 N94764 POT PARAMS: SET=0.5 VALUE=50k
+R_R31         0 N94492  25k TC=0,0 
+C_C3         N93925 N94764  1u  TC=0,0 
+
+**** RESUMING simulare.cir ****
+.END
+
+**** 11/10/22 21:41:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C2V7      X_U2.1N4148     X_U1.1N4148     X_U3.1N4148     
+          IS  110.880000E-18    4.352000E-09    4.352000E-09    4.352000E-09 
+           N     .92657         1.906           1.906           1.906        
+         ISR    1.515900E-06                                                 
+         IKF  147.68                                                         
+          BV    2.7639        110             110             110            
+         IBV     .06977       100.000000E-06  100.000000E-06  100.000000E-06 
+          RS     .85899          .6458           .6458           .6458       
+          TT   17.889000E-09    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO  344.690000E-12  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .72935          .869            .869            .869        
+           M     .31964          .03             .03             .03         
+
+
+               X_U4.1N4148     X_U6.1N4148     X_U5.1N4148     
+          IS    4.352000E-09    4.352000E-09    4.352000E-09 
+           N    1.906           1.906           1.906        
+          BV  110             110             110            
+         IBV  100.000000E-06  100.000000E-06  100.000000E-06 
+          RS     .6458           .6458           .6458       
+          TT    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .869            .869            .869        
+           M     .03             .03             .03         
+
+
+**** 11/10/22 21:41:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC856B         QBC846B         
+               PNP             NPN             
+       LEVEL    1               1            
+          IS   20.140000E-15   18.220000E-15 
+          BF  315.3           324.4          
+          NF     .9974           .9932       
+         VAF   39.15           82            
+         IKF     .079            .109        
+         ISE    6.578000E-15  289.400000E-18 
+          NE    1.45            1.4          
+          BR    8.68            8.29         
+          NR     .9952           .9931       
+         VAR    9.5            17.9          
+         IKR     .09             .09         
+         ISC   16.330000E-15    9.982000E-12 
+          NC    1.15            1.763        
+         ISS    0               0            
+          RB   10              10            
+         RBM    5.000000E-06    5            
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .663            .649        
+          RC     .718            .7014       
+         CJE   11.350000E-12   12.440000E-12 
+         VJE     .7071           .7579       
+         MJE     .3808           .3656       
+         CJC    6.395000E-12    3.347000E-12 
+         VJC     .4951           .5463       
+         MJC     .44             .391        
+        XCJC     .6288           .6193       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .9059           .979        
+          TF  654.600000E-12  490.800000E-12 
+         XTF    5.387           9.51         
+         VTF    6.245           2.927        
+         ITF     .2108           .3131       
+          TR   55.000000E-09   90.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+**** 11/10/22 21:41:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N89940)   15.0000 (N90050)   14.8900 (N90056)   14.8900 (N90114)   14.2310     
+
+(N90142)   13.6440 (N90156)   11.4070 (N90198)    1.2396 (N90268)     .5501     
+
+(N90278)    -.1177 (N90336)    -.1489 (N90480)    -.1491 (N90494)    -.1478     
+
+(N90500)    -.1475 (N90510)    -.8027 (N90528)    -.1593 (N90678)-27.89E-06     
+
+(N90722)    -.2019 (N90808)   -6.1430 (N90814)  -12.2860 (N90874)  -12.9600     
+
+(N90880)  -12.9600 (N90886)    -.8688 (N91024)  -15.0000 (N91485)   14.9040     
+
+(N91491)   14.8760 (N91549)   14.2140 (N91557)   14.8910 (N91809)    -.6648     
+
+(N92424)  -13.0320 (N92657)  -12.9600 (N92713)  -13.0400 (N92841)   14.9570     
+
+(N92907)  -13.5970 (N93814)  -14.5710 (N93818)  -14.0840 (N93925)  -13.8210     
+
+(N93979)    -.0298 (N94492)    0.0000 (N94764)    0.0000 (N900281)   14.3160    
+
+(N910121)   -7.9344                   (N923841)   14.9990                       
+
+(N937491)  -14.7850                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -6.364E-02
+    V_V1        -2.370E-02
+
+    TOTAL POWER DISSIPATION   1.31E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/10/22 21:41:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .94
+  Total job time (using Solver 1)   =         .06
+

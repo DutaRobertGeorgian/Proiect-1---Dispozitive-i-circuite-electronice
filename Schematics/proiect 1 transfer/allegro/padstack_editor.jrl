@@ -1,0 +1,24 @@
+\t (00:00:01) padstack_editor 17.4 S028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Dec 10 20:11:10 2022
+\t (00:00:01)         Host=DESKTOP-ROBERT User=Robert Pid=8340 CPUs=8
+\t (00:00:01) CmdLine= padstack_editor -mpssession Robert -file C:/Users/Robert/AppData/Local/Temp/#Taaaagi05964.tmp -pname SM_LIB_PAD88 -data C:/Users/Robert/AppData/Local/Temp/#Taaaagl05964.tmp
+\t (00:00:01) 
+\d (00:00:06) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
+\d (00:00:06) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
+\d (00:00:08) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Square
+\d (00:00:13) QtSignal GuidedDesignLayersTab PadWidth editingFinished "80.00"
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable cellDoubleClicked 0 "Anti Pad" 0 4
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:22) QtSignal GuidedDesignLayersTab PadWidth editingFinished "80.00"
+\d (00:00:22) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:00:23) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:48) QtSignal GuidedMaskLayersTab PadWidth editingFinished "60.00"
+\d (00:00:48) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:48) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:48) QtSignal GuidedMaskLayersTab LayersTable cellDoubleClicked 2 Pad 2 1
+\d (00:00:48) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:54) QtSignal GuidedMaskLayersTab PadWidth editingFinished "45.00"
+\d (00:01:00) QtSignal MainWindow UpdateToDesign triggered
+\t (00:01:02)     Journal end - Sat Dec 10 20:12:11 2022

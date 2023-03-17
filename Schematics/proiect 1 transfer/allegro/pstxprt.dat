@@ -1,0 +1,530 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Dec-10-2022 at 11:35:53 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PROIECT_OSC_TRIUNGHIULAR';
+ POST_TIME='Mar  9 2022 22:03:45';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_100P':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS151593@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins151593@analog.\c.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins151593@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SMC0805_470P':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS151000@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins151000@analog.\c.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins151000@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'BZX84-C2V7_1_TO236_BZX84-C2V7':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105904@PROIECT_OSC_TRIUNGHIULAR.BZX84-C2V7_1.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105904@proiect_osc_triunghiular.\bzx84-c2v7_1.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105904@proiect_osc_triunghiular.\bzx84-c2v7_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'BZX84-C2V7_1_TO236_BZX84-C2V7':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS104904@PROIECT_OSC_TRIUNGHIULAR.BZX84-C2V7_1.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins104904@proiect_osc_triunghiular.\bzx84-c2v7_1.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins104904@proiect_osc_triunghiular.\bzx84-c2v7_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS155480@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins155480@connector.\con2.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins155480@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS155535@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins155535@connector.\con2.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins155535@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS155615@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins155615@connector.\con2.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins155615@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POT1 'POT_TS53YL_50K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS104704@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins104704@breakout.\pot.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins104704@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POT2 'POT_TS53YL_50K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105992@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105992@breakout.\pot.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105992@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POT3 'POT_TS53YL_500K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS126138@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins126138@breakout.\pot.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins126138@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105030@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105030@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105030@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q10 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105242@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105242@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105242@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q11 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105268@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105268@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105268@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q12 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105090@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105090@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105090@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q13 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105656@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105656@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105656@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q14 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105294@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105294@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105294@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q15 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS108492@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins108492@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins108492@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q16 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS108510@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins108510@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins108510@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q17 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS108955@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins108955@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins108955@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q18 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS108973@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins108973@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins108973@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q19 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS109610@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins109610@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins109610@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105630@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105630@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105630@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q20 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS109636@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins109636@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins109636@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q7 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105064@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105064@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105064@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q8 'QBC856B_0_TO236_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105720@PROIECT_OSC_TRIUNGHIULAR.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105720@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105720@proiect_osc_triunghiular.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q9 'QBC846B_0_TO236_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105170@PROIECT_OSC_TRIUNGHIULAR.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105170@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105170@proiect_osc_triunghiular.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_SMR0805_22K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105754@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105754@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105754@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105826@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105826@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105826@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS163727@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins163727@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins163727@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_SMR0805_150K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS142321@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins142321@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins142321@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR0805_15K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105972@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105972@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105972@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_SMR0805_47K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS126311@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins126311@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins126311@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_SMR0805_1.5K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS133333@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins133333@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins133333@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136341@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136341@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136341@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136357@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136357@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136357@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR0805_15K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS104684@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins104684@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins104684@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136539@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136539@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136539@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136614@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136614@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136614@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136696@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136696@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136696@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136720@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136720@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136720@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136830@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136830@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136830@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'R_SMR0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS136854@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins136854@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins136854@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_SMR0805_1.5K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS104982@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins104982@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins104982@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144573@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144573@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144573@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144595@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144595@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144595@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R53 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144617@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144617@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144617@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144647@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144647@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144647@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144669@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144669@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144669@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS144691@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins144691@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins144691@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS163711@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins163711@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins163711@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'R_SMR0805_220K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS154098@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins154098@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins154098@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_SMR0805_47K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_OSC_TRIUNGHIULAR.SCHEMATIC1(SCH_1):INS105866@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_osc_triunghiular.schematic1(sch_1):ins105866@analog.\r.normal\(chips)',
+ P_PATH='@proiect_osc_triunghiular.schematic1(sch_1):page_ins105866@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

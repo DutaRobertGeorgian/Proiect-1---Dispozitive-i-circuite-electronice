@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.sim ] 
+
+** Creating circuit file "simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/1N4148.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/vladu/OneDrive/Desktop/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC807-25.lib" 
+* From [PSPICE NETLIST] section of C:\Users\vladu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

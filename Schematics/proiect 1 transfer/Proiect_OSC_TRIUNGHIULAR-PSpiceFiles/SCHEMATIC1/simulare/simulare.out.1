@@ -1,0 +1,150 @@
+
+**** 11/10/22 21:35:22 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare"  [ C:\PROIECT_DCAE\Operatiunea END_GAME\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\vladu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_OSC_TRIUNGHIULAR
+R_R4         N90336 N90278  30k TC=0,0 
+R_R14         N90808 N90814  510 TC=0,0 
+Q_Q3         N90142 N90336 N90510 QBC846B 
+Q_Q9         N89940 N90268 N90278 QBC846B 
+Q_Q10         N91024 N90886 N90722 QBC856B 
+R_R13         N90494 N90500  51 TC=0,0 
+V_V2         0 N91024 15
+Q_Q5         N90510 N90814 N90874 QBC846B 
+Q_Q6         N90198 N90142 N900281 QBC856B 
+C_C1         0 N90480  33n  TC=0,0 
+D_D1         N91024 N90814 BZX84-C2V7 
+R_R17         N90722 N90278  22 TC=0,0 
+Q_Q7         N90198 N90814 N90880 QBC846B 
+V_V1         N89940 0 15
+Q_Q4         N90114 N90480 N90510 QBC846B 
+X_POT1         N90500 N90278 N90278 POT PARAMS: SET=0 VALUE=5k
+R_R2         N90056 N89940  51 TC=0,0 
+R_R3         0 N90336  30k TC=0,0 
+Q_Q8         N90156 N90198 N90268 QBC846B 
+R_R9         N91024 N90880  470 TC=0,0 
+X_U2         N90528 N90886 1N4148 
+R_R8         N90480 N90494  220 TC=0,0 
+X_U1         N89940 N900281 1N4148 
+R_R15         0 N90808  510 TC=0,0 
+R_R19         N91024 N910121  1k TC=0,0 
+R_R1         N90050 N89940  51 TC=0,0 
+X_U3         N90268 N90528 1N4148 
+R_R5         N91024 N90874  470 TC=0,0 
+R_R20         N90156 N89940  510 TC=0,0 
+Q_Q2         N90114 N90114 N90056 QBC856B 
+Q_Q1         N90142 N90114 N90050 QBC856B 
+R_R18         N910121 N90886  1k TC=0,0 
+X_R12         0 N90678 N90278 POT PARAMS: SET=1 VALUE=500
+R_R21         N91485 N89940  51 TC=0,0 
+R_R22         N91491 N89940  51 TC=0,0 
+Q_Q11         N91557 N91549 N91485 QBC856B 
+Q_Q12         N91549 N91549 N91491 QBC856B 
+Q_Q13         N91557 N93979 N91809 QBC846B 
+Q_Q15         N91809 N90814 N92657 QBC846B 
+Q_Q14         N91549 N90678 N91809 QBC846B 
+Q_Q17         N92424 N90814 N92713 QBC846B 
+R_R24         N91024 N92713  470 TC=0,0 
+Q_Q16         N92424 N91557 N923841 QBC856B 
+X_U4         N89940 N923841 1N4148 
+R_R23         N91024 N92657  470 TC=0,0 
+Q_Q19         N89940 N92907 N93925 QBC846B 
+R_R25         N92841 N89940  510 TC=0,0 
+Q_Q18         N92841 N92424 N92907 QBC846B 
+X_U6         N93818 N93814 1N4148 
+R_R26         N937491 N93814  1k TC=0,0 
+X_U5         N92907 N93818 1N4148 
+R_R27         N91024 N937491  1k TC=0,0 
+Q_Q20         N91024 N93814 N93925 QBC856B 
+R_R28         0 N93979  10k TC=0,0 
+R_R29         N90678 N93925  500 TC=0,0 
+C_C2         N90678 N93925  4.7u  TC=0,0 
+X_R30         0 N94492 N94764 POT PARAMS: SET=0.5 VALUE=50k
+R_R31         0 N94492  25k TC=0,0 
+C_C3         N93925 N94764  1u  TC=0,0 
+
+**** RESUMING simulare.cir ****
+.END
+
+ERROR(ORPSIM-15113): Model BZX84-C2V7 used by D_D1 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q3 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q9 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q10 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q5 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q6 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q7 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q4 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q8 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q2 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q1 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q11 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q12 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q13 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q15 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q14 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q17 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q16 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q19 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q18 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q20 is undefined
+
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U1 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U4 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U6 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U5 is undefined
+

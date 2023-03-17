@@ -1,0 +1,257 @@
+(ExpressProject "Proiect_OSC_TRIUNGHIULAR"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S028 (4018475)  [3/9/2022]-[12/10/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_17.2\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "C:\Cadence\SPB_17.2\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "proiect_osc_triunghiular.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (Board_sim_option "VHDL_flow")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\ROBERT\DESKTOP\PROIECT 1\FINALLLLL\PROIECT_OSC_TRIUNGHIULAR.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Vendor}\t{Part Number}\t{Manufacturer_Name}\t{Manufacturer_Part_Number}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\Vendor\tPart Number\tManufacturer\tManufacturer Part Number")
+    (BOM_Include_File
+       "C:\USERS\ROBERT\DESKTOP\PROIECT 1\FINALLLLL\PROIECT_OSC_TRIUNGHIULAR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File"
+       ".\allegro\proiect_osc_triunghiular.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\proiect_osc_triunghiular.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\proiect_osc_triunghiular.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\proiect_osc_triunghiular-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\proiect_osc_triunghiular.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_osc_triunghiular-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_osc_triunghiular-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-simulare")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\proiect_osc_triunghiular-pspicefiles\schematic1\bias.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC856B.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC846B.OLB")
+      (DeviceIndex "0"))
+    (QBC807-25
+      (FullPartName "QBC807-25.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC807-25.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V1
+      (FullPartName "BZX84-C5V1.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BZX84C5V1.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\1N4148.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName
+         "C:\USERS\VLADU\ONEDRIVE\DESKTOP\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BZX84C2V7.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\vladu\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib")
+  (MPSSessionName "Robert")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\proiect_osc_triunghiular.dsn")
+      (Path "Design Resources"
+         "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\proiect_osc_triunghiular.dsn"
+         "SCHEMATIC1")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\proiect_osc_triunghiular.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 608"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 1290 24 626")
+        (Scroll "2 89")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ROBERT\DESKTOP\PROIECT 1\FINALLLLL\PROIECT_OSC_TRIUNGHIULAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Robert\Desktop\proiect 1\FINALLLLL\allegro\genfeed.log")))
+  (ISPCBBASICLICENSE "false"))

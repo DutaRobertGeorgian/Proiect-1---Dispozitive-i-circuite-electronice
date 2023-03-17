@@ -1,0 +1,115 @@
+
+**** 11/13/22 22:56:43 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Robert\Desktop\proiect final mihnea\proiect_osc_triunghiular-pspicefiles\schematic1\bias.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "C:/Users/Robert/Desktop/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Robert\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ309LT1G.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ177LT1G.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MJD32CG.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MJD31CG.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\IRFR120NPBF.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C10.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C8V2.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C6V8.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C6V2.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V6.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V1.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C2V7.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC856B.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC846B.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC807-25.lib" 
+.lib "C:\Users\Robert\Desktop\proiect 1\Lib_ModelePSpice_Anexa_1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\1N4148.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2m  0 0.01m SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_OSC_TRIUNGHIULAR
+X_POT1         N112512 N112512 VDD POT PARAMS: SET=1 VALUE=50k
+X_POT2         VEE VEE N105962 POT PARAMS: SET=1 VALUE=50k
+Q_Q1         N105158 N105014 N1050421 QBC856B 
+Q_Q14         VDD N105168 N105472 QBC846B 
+Q_Q8         VEE N105164 N105322 QBC856B 
+R_R5         N142027 N112512  1k TC=0,0 
+R_R4         N112512 VDD  22k TC=0,0 
+Q_Q2         N105158 N105684 N1056421 QBC846B 
+D_D2         N105014 VDD BZX84-C2V7 
+D_D1         VEE N105684 BZX84-C2V7 
+Q_Q7         N105164 N108998 VDD QBC856B 
+Q_Q9         VDD N105164 N105322 QBC846B 
+R_R16         VEE N105464  22k TC=0,0 
+Q_Q12         N105168 N105128 VDD QBC856B 
+R_R8         VEE N108528  47k TC=0,0 
+R_R19         VEE N105168  10K TC=0,0 
+Q_Q11         N109664 N105472 N105464 QBC846B 
+R_R3         VEE N105962  22k TC=0,0 
+Q_Q10         N105128 N126262 N105464 QBC846B 
+Q_Q13         VEE N105168 N105472 QBC856B 
+Q_Q15         N108998 N126084 N108528 QBC846B 
+Q_Q16         N108991 0 N108528 QBC846B 
+Q_Q17         N108998 N108991 VDD QBC856B 
+Q_Q18         N108991 N108991 VDD QBC856B 
+Q_Q20         N109664 N109664 VDD QBC856B 
+Q_Q19         N105128 N109664 VDD QBC856B 
+R_R25         0 N105472  22k TC=0,0 
+X_POT3         N126327 N126262 N105158 POT PARAMS: SET=0.90 VALUE=500K
+R_R32         0 N126327  47k TC=0,0 
+R_R34         N105962 N142019  1k TC=0,0 
+R_R38         N136654 N105014  2.2k TC=0,0 
+R_R39         N105684 N136658  2.2k TC=0,0 
+R_R40         N136658 N105322  2.2k TC=0,0 
+R_R41         N105322 N136654  2.2k TC=0,0 
+R_R43         N105684 N136718  2.2k TC=0,0 
+R_R42         N136718 N105322  2.2k TC=0,0 
+R_R44         N136852 N105014  2.2k TC=0,0 
+R_R45         N105322 N136852  2.2k TC=0,0 
+R_R46         N126084 N105322  220k TC=0,0 
+R_R47         N1050421 N142027  82 TC=0,0 
+R_R48         N142019 N1056421  82 TC=0,0 
+R_R28         N105158 N126084  150k TC=0,0 
+C_C3         0 N105158  0.00p  TC=0,0 
+------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+C_C1         0 N105158  470p  TC=0,0 
+C_C2         N105164 N105322  10p  TC=0,0 
+R_R54         N144715 VEE  510 TC=0,0 
+R_R53         N144645 N1446051  510 TC=0,0 
+R_R51         N1445831 N105164  510 TC=0,0 
+R_R56         N144645 N144719  510 TC=0,0 
+R_R52         N1446051 N1445831  510 TC=0,0 
+R_R55         N144719 N144715  510 TC=0,0 
+V_V1         VDD 0 18
+V_V2         VEE 0 -18
+
+**** RESUMING bias.cir ****
+.END
+

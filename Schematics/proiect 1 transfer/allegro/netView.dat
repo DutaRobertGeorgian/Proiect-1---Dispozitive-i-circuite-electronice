@@ -1,0 +1,36 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_CDS_FSP_UID!NET_SHIELD_NET!NET_RELATIVE_PROPAGATION_DELAY!NET_NO_PIN_ESCAPE!NET_NET_SHORT!NET_VOLTAGE_LAYER!NET_VOLTAGE!NET_RATSNEST_SCHEDULE!NET_CLOCK_NET!NET_NET_PHYSICAL_TYPE!NET_MAX_FINAL_SETTLE!NET_NO_TEST!NET_MAX_EXPOSED_LENGTH!NET_ELECTRICAL_CONSTRAINT_SET!NET_CDS_FSP_BUS_INDEX!NET_STUB_LENGTH!NET_SHIELD_TYPE!NET_NO_RAT!NET_PROPAGATION_DELAY!NET_NO_RIPUP!NET_MIN_HOLD!NET_DIFFERENTIAL_PAIR!NET_MIN_SETUP!NET_MIN_NECK_WIDTH!NET_BUS_NAME!NET_MIN_NOISE_MARGIN!NET_MATCHED_DELAY!NET_ECL!NET_DIFFP_LENGTH_TOL!NET_DIFFP_2ND_LENGTH!NET_NET_GROUP_GRP_NAME!NET_SUBNET_NAME!NET_MIN_BOND_LENGTH!NET_MAX_OVERSHOOT!NET_TS_ALLOWED!NET_MAX_VIA_COUNT!NET_EMC_CRITICAL_NET!NET_CDS_FSP_NET!NET_PROBE_NUMBER!NET_NO_ROUTE!NET_MIN_LINE_WIDTH!NET_ECL_TEMP!NET_NO_GLOSS!NET_ROUTE_PRIORITY!NET_NET_SPACING_TYPE!NET_IMPEDANCE_RULE!
+J!C:/Users/Robert/Desktop/proiect 1/FINALLLLL/allegro/proiect_osc_triunghiular.brd!Sat Dec 10 11:35:42 2022!-6762.5600!-6228.6600!27237.4400!15771.3400!0.0001!mils!PROIECT_OSC_TRIUNGHIULAR!10.400000 mil!2!UP TO DATE!
+S!N163771!@proiect_osc_triunghiular.schematic1(sch_1):n163771!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N162734!@proiect_osc_triunghiular.schematic1(sch_1):n162734!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!OUT!@proiect_osc_triunghiular.schematic1(sch_1):\out\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!22 MIL!!!!!!
+S!N109664!@proiect_osc_triunghiular.schematic1(sch_1):n109664!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105128!@proiect_osc_triunghiular.schematic1(sch_1):n105128!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N108998!@proiect_osc_triunghiular.schematic1(sch_1):n108998!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N108991!@proiect_osc_triunghiular.schematic1(sch_1):n108991!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N108528!@proiect_osc_triunghiular.schematic1(sch_1):n108528!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105014!@proiect_osc_triunghiular.schematic1(sch_1):n105014!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105464!@proiect_osc_triunghiular.schematic1(sch_1):n105464!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105168!@proiect_osc_triunghiular.schematic1(sch_1):n105168!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N126084!@proiect_osc_triunghiular.schematic1(sch_1):n126084!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N126327!@proiect_osc_triunghiular.schematic1(sch_1):n126327!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N126262!@proiect_osc_triunghiular.schematic1(sch_1):n126262!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N142019!@proiect_osc_triunghiular.schematic1(sch_1):n142019!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N142027!@proiect_osc_triunghiular.schematic1(sch_1):n142027!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105158!@proiect_osc_triunghiular.schematic1(sch_1):n105158!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N112512!@proiect_osc_triunghiular.schematic1(sch_1):n112512!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N136852!@proiect_osc_triunghiular.schematic1(sch_1):n136852!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N136718!@proiect_osc_triunghiular.schematic1(sch_1):n136718!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N136658!@proiect_osc_triunghiular.schematic1(sch_1):n136658!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N136654!@proiect_osc_triunghiular.schematic1(sch_1):n136654!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!GND!@proiect_osc_triunghiular.schematic1(sch_1):gnd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!28 MIL!!!!!!
+S!N105322!@proiect_osc_triunghiular.schematic1(sch_1):n105322!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105164!@proiect_osc_triunghiular.schematic1(sch_1):n105164!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N151868!@proiect_osc_triunghiular.schematic1(sch_1):n151868!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N105684!@proiect_osc_triunghiular.schematic1(sch_1):n105684!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!VEE!@proiect_osc_triunghiular.schematic1(sch_1):vee!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!22 MIL!!!!!!
+S!VDD!@proiect_osc_triunghiular.schematic1(sch_1):vdd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!22 MIL!!!!!!
+S!N105962!@proiect_osc_triunghiular.schematic1(sch_1):n105962!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N1445831!@proiect_osc_triunghiular.schematic1(sch_1):n1445831!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N144715!@proiect_osc_triunghiular.schematic1(sch_1):n144715!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N1446051!@proiect_osc_triunghiular.schematic1(sch_1):n1446051!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
+S!N144719!@proiect_osc_triunghiular.schematic1(sch_1):n144719!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!18 MIL!!!!!!
